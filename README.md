@@ -23,7 +23,7 @@ O objetivo do projeto é apresentar meu perfil, minhas formações acadêmicas, 
 - `fotos/` — Pasta contendo imagens, favicon e fotos usadas no site  
 
 ## Link do Site Hospedado
-Acesse meu portfólio online em:  
+Acesse meu portfólio online em: https://teago0.github.io/meu-portfolio/
 
 ## Considerações Finais
 Este projeto foi desenvolvido seguindo as orientações da disciplina, utilizando apenas HTML e CSS puros, garantindo acessibilidade, responsividade e boa usabilidade.

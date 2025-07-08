@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="fotos/favicon.png">
+</head>
+<body>
+
+    <!-- Cabeçalho do site com nome e menu de navegação -->
+    <header>
+        <h1>Thiago Henrique</h1>
+        <nav>
+            <a href="index.html">Sobre mim</a>
+            <a href="formacao.html">Formações</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Seção onde está o formulário para a pessoa entrar em contato comigo -->
+        <section class="contato">
+            <h2>Fale Comigo</h2>
+
+            <!-- Formulário simples com nome, email e mensagem -->
+            <form class="form-contato" action="agradecimento.html" method="get" novalidate>
+                <!-- Campo para a pessoa digitar o nome -->
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+                <!-- Campo para a pessoa digitar o email -->
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+                <!-- Espaço para escrever a mensagem -->
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" rows="6" placeholder="Escreva sua mensagem..." required></textarea>
+
+                <!-- Botão para enviar o formulário -->
+                <button type="submit">Enviar</button>
+            </form>
+            
+        </section>
+    </main>
+
+</body>
+</html>
